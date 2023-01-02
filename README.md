@@ -1,8 +1,29 @@
-# Svelte + Vite
 
-This template should help get you started developing with Tauri and Svelte in Vite.
+# Ask ChatGPT
 
-## Recommended IDE Setup
+Tauri + Svelte app to communicate with ChatGPT via OpenAI API
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
 
+## Authors
+
+- [@dmatis2](https://www.github.com/dmatis2)
+
+
+## Development
+
+1. Copy `.env.example` to `.env` and fill it with your own OpenAI API key.
+
+2. Install dependencies and run `tauri dev` script
+
+```bash
+  npm i
+  npm run tauri dev
+```
+    
+## Build
+
+To build this project run
+
+```bash
+  npm run tauri build
+```
